@@ -22,16 +22,6 @@ function openImg(imgName) {
 }
 
 
-// slick slider
-const content = document.getElementsByClassName('partner-conttainer')
-$('.content').slick({
-  slidesToShow: 8,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 2000,
-});
-
-
 // aos initial
 AOS.init();
 
