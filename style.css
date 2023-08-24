@@ -423,12 +423,15 @@ footer .social .fa-linkedin-in{
   }
   #contact{
     width: 100%;
-    padding: 0 5rem;
+    padding: 0 4rem;
   }
   .contact-text h3{
     font-size: 2rem;
   }
-  
+  #home{
+    max-width: 600px;
+    height: 70%;
+  }
 }
 
 /* end */
