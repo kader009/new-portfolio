@@ -1,27 +1,19 @@
 // gsap animation
 
-
-
-gsap.from('nav',{
-  y:15,
-  delay:0.4,
-  duration:0.8,
-  ease:'slow'
-})
-
-
-gsap.from('.heade-text, h1, h2, h4, .btn-div', {
-  y:100,
-  delay:0.9,
-  duration:0.5,
-  stagger:0.1,
-  ease:'slow.out'
+gsap.from('nav', {
+  y: 15,
+  delay: 0.4,
+  duration: 0.8,
+  ease: 'slow',
 });
 
-
-
-
-
+gsap.from('.heade-text, h1, h2, h4, .btn-div', {
+  y: 100,
+  delay: 0.9,
+  duration: 0.5,
+  stagger: 0.1,
+  ease: 'slow.out',
+});
 
 // progress bar
 window.onscroll = function () {
@@ -46,8 +38,6 @@ function openImg(imgName) {
   }
   document.getElementById(imgName).style.display = 'block';
 }
-
-
 
 // aos initial
 AOS.init();

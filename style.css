@@ -1,12 +1,12 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
-body{
+body {
   overflow-x: hidden;
 }
 
@@ -14,7 +14,7 @@ body{
 .progress-container {
   width: 100%;
   height: 8px;
-  background:rgba(166, 166, 242, 0.29);
+  background: rgba(166, 166, 242, 0.29);
   position: sticky;
   top: 0;
   z-index: 222;
@@ -26,24 +26,21 @@ body{
 }
 /* end */
 
-
 /* home style start */
-#home{
+#home {
   background-image:
-    /* linear-gradient(to bottom, rgba(74, 77, 74, 0.79), rgba(103, 103, 136, 0.29)), */
-
-    url('./image/header1.jpg');
+    /* linear-gradient(to bottom, rgba(74, 77, 74, 0.79), rgba(103, 103, 136, 0.29)), */ url('./image/header1.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
 }
-.navbar-brand{
+.navbar-brand {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
 }
-.navbar-nav .nav-item .nav-link{
+.navbar-nav .nav-item .nav-link {
   font-size: 0.938rem;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
@@ -53,25 +50,25 @@ body{
   grid-template-columns: repeat(1, 1fr);
   margin-left: 20%;
 }
-.header-text h1{
+.header-text h1 {
   color: aliceblue;
   font-size: 4.5rem;
   font-weight: 900;
   font-family: 'Poppins', sans-serif;
 }
-.header-text h2{
+.header-text h2 {
   font-size: 4.5rem;
   color: #fff;
   font-weight: 900;
   font-family: 'Poppins', sans-serif;
 }
-.header-text h4{
+.header-text h4 {
   font-size: 2.188rem;
   color: #fff;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
 }
-.header-text .btn-div button{
+.header-text .btn-div button {
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   font-size: 1rem;
@@ -79,42 +76,41 @@ body{
 
 /* end */
 
-
 /* about start */
-#about{
+#about {
   margin: 0 12rem;
 }
-.about-container{
+.about-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 2rem;
 }
-.about-container #img img{
+.about-container #img img {
   width: 28rem;
   height: 30rem;
   border-radius: 0.15rem;
-  box-shadow: 2px 2px 10px 0px rgba(5,5,6,0.75);
+  box-shadow: 2px 2px 10px 0px rgba(5, 5, 6, 0.75);
 }
-.about-text span{
+.about-text span {
   font-size: 0.75rem;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   background-color: rgb(247, 243, 243);
   padding: 0.345rem;
-  margin-bottom:0.345rem ;
+  margin-bottom: 0.345rem;
   line-height: 1.875rem;
   font-weight: 600;
 }
-.about-text h3{
+.about-text h3 {
   font-size: 1.875rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
   line-height: 2.625rem;
   letter-spacing: 0.031rem;
 }
-.about-text p{
+.about-text p {
   font-family: 'Poppins', sans-serif;
   font-size: 0.938rem;
   line-height: 2.25rem;
@@ -124,22 +120,21 @@ body{
 
 /* end */
 
-
 /* portfolio style start */
-#portfolio{
+#portfolio {
   margin: 0 5rem;
 }
-#container{
+#container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1rem;
 }
-.w3-container a img{
+.w3-container a img {
   width: 20rem;
   border-radius: 0.275rem;
 }
-.picture img{
+.picture img {
   width: 100%;
   height: 45rem;
   display: grid;
@@ -148,82 +143,80 @@ body{
   align-items: center;
   border-radius: 0.275rem;
 }
-.w3-container h2{
+.w3-container h2 {
   font-size: 0.75rem;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   background-color: rgb(247, 243, 243);
   padding: 0.365rem;
-  margin-bottom:0.345rem ;
+  margin-bottom: 0.345rem;
   line-height: 1.875rem;
   font-weight: 600;
   display: inline-block;
 }
-.w3-container h3{
+.w3-container h3 {
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
   font-size: 1.875rem;
   letter-spacing: 0.031rem;
   line-height: 2.688rem;
 }
-.w3-container p{
+.w3-container p {
   font-size: 0.75rem;
   font-family: 'Poppins', sans-serif;
 }
 
-
 /* end */
 
-
 /* news style start */
-#news{
+#news {
   margin: 0 1rem;
 }
-.news-container-text span{
+.news-container-text span {
   font-size: 0.75rem;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   background-color: rgb(247, 243, 243);
   padding: 0.345rem;
-  margin-bottom:0.345rem ;
+  margin-bottom: 0.345rem;
   line-height: 1.875rem;
   font-weight: 600;
 }
-.news-container-text{
+.news-container-text {
   margin-left: 10%;
 }
-.news-container-text h2{
+.news-container-text h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
   font-size: 1.875rem;
   line-height: 2.625rem;
   letter-spacing: 0.031rem;
 }
-.news-img .box img{
+.news-img .box img {
   width: 22rem;
-  transition:  transform .2s;
-  border-top-right-radius:2px ;
+  transition: transform 0.2s;
+  border-top-right-radius: 2px;
   border-top-left-radius: 2px;
 }
-.box img{
+.box img {
   display: block;
   transition: 1s;
 }
-.box:hover{
+.box:hover {
   transform: scale(1.1);
   z-index: 2;
 }
-.news-img{
+.news-img {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
-.news-img .box{
+.news-img .box {
   width: 23.563rem;
   height: 23.563rem;
 }
-.news-img .box h3{
+.news-img .box h3 {
   font-size: 1.125rem;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
@@ -231,7 +224,7 @@ body{
   line-height: 1.563rem;
   margin-top: 0.75rem;
 }
-.news-img .box span{
+.news-img .box span {
   font-family: 'Roboto', sans-serif;
   font-style: italic;
   letter-spacing: 0.031rem;
@@ -243,60 +236,60 @@ body{
 
 /* end */
 
-
 /* partner style start */
-#partner{
-  margin:  0 2rem;
+#partner {
+  margin: 0 2rem;
 }
-.partner-conttainer{
+.partner-conttainer {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 1rem ;
+  margin-bottom: 1rem;
 }
-.partner-conttainer img{
+.partner-conttainer img {
   width: 9rem;
 }
 
-
 /* end */
 
-
 /* contact style start */
-#contact{
-  /* background-image:url('image/contact.jpg'); */
-  background-image:
-    linear-gradient(rgba(20, 50, 220, 0.52), rgba(46, 41, 46, 0.73)),
+#contact {
+  background-image: linear-gradient(
+      rgba(20, 50, 220, 0.52),
+      rgba(46, 41, 46, 0.73)
+    ),
     url('image/contact.jpg');
 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  /* height: min-content; */
   padding: 0 25rem;
   clip-path: polygon(24% 7%, 67% 5%, 100% 0, 100% 100%, 0 100%, 0 2%);
 }
-.contact-text h3{
+.contact-text h3 {
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
   font-size: 4.1rem;
   color: #fff;
 }
-input[type=text], [type=email], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+input[type='text'],
+[type='email'],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
 /* Style the submit button with a specific background color etc */
-input[type=submit] {
+input[type='submit'] {
   background-color: #0b0b0b;
   color: white;
   padding: 12px 20px;
@@ -306,7 +299,7 @@ input[type=submit] {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
+input[type='submit']:hover {
   background-color: #914c4c;
   color: #ccc;
 }
@@ -317,7 +310,7 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 10px;
 }
-form label{
+form label {
   font-family: 'Poppins', sans-serif;
   color: #fff;
 }
@@ -325,35 +318,35 @@ form label{
 /* end */
 
 /* footer style start */
-footer p{
+footer p {
   font-family: 'Poppins', sans-serif;
   font-size: 0.938rem;
   line-height: 1.875rem;
   letter-spacing: 0.031rem;
 }
-footer .social i{
+footer .social i {
   margin: 0.55rem;
 }
-footer .social i:hover{
+footer .social i:hover {
   transform: translateY(-0.375rem);
 }
-footer .social .fa-facebook{
-  color:  #3b5998;
+footer .social .fa-facebook {
+  color: #3b5998;
 }
-footer .social .fa-instagram{
-  color:  #feda75;
+footer .social .fa-instagram {
+  color: #feda75;
 }
-footer .social .fa-twitter{
-  color:  #00acee;
+footer .social .fa-twitter {
+  color: #00acee;
 }
-footer .social .fa-linkedin-in{
-  color:  #0072b1 ;
+footer .social .fa-linkedin-in {
+  color: #0072b1;
 }
 
 /* end */
 
 /* arrow sign style */
-.fas{
+.fas {
   position: fixed;
   width: 2rem;
   height: 1.9rem;
@@ -369,13 +362,10 @@ footer .social .fa-linkedin-in{
 
 /* end */
 
-
-
-
 /* mobile responsive */
 
-@media only screen and (max-width:36rem) {
-  html{
+@media only screen and (max-width: 36rem) {
+  html {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -385,7 +375,7 @@ footer .social .fa-linkedin-in{
   .progress-container {
     width: 100%;
     height: 8px;
-    background:rgba(166, 166, 242, 0.29);
+    background: rgba(166, 166, 242, 0.29);
     position: fixed;
     top: 0;
     z-index: 222;
@@ -395,47 +385,45 @@ footer .social .fa-linkedin-in{
     background: #0caa70;
     width: 0%;
   }
-  .header-text h1{
+  .header-text h1 {
     font-size: 2.5rem;
   }
-  .header-text h2{
+  .header-text h2 {
     font-size: 2.5rem;
   }
-  .header-text h4{
+  .header-text h4 {
     font-size: 2.188rem;
   }
-  .about-container{
+  .about-container {
     flex-direction: column;
   }
-  .about-text{
+  .about-text {
     margin-left: 0.938rem;
   }
-  #container{
+  #container {
     justify-content: center;
     align-items: center;
   }
-  .w3-container{
+  .w3-container {
     text-align: center;
   }
-  .picture img{
+  .picture img {
     height: 100%;
   }
-  #partner{
+  #partner {
     display: none;
   }
-  #contact{
+  #contact {
     width: 100%;
-    padding: 0 4rem;
+    padding: 0 2.5rem;
   }
-  .contact-text h3{
-    font-size: 2rem;
+  .contact-text h3 {
+    font-size: 2.7rem;
   }
-  #home{
+  #home {
     max-width: 600px;
     height: 70%;
   }
 }
 
 /* end */
-
-
