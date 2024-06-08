@@ -15,6 +15,10 @@
 
 ## How to use this project
 
-`clone or download this project link and use it your personal project `
+` clone or download this project link and use it your personal project `
 
-> It's and open source project feel free to use any one wihtout any hesitation
+> It's and open source project feel free to use any one wihtout any hesitation 
+
+
+
+

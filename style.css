@@ -142,6 +142,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 0.275rem;
+  object-fit: cover;
 }
 .w3-container h2 {
   font-size: 0.75rem;
@@ -236,6 +237,91 @@ body {
 
 /* end */
 
+
+/* education style start */
+#education {
+  margin: 0 5rem;
+  padding: 3rem 0;
+  border-radius: 0.25rem;
+}
+
+#education .section-title {
+  /* text-align: center; */
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+
+#education span h2{
+  text-align: right;
+}
+
+#education .section-title span {
+  font-size: 0.75rem;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  background-color: rgb(247, 243, 243);
+  padding: 0.345rem;
+  margin-bottom: 0.345rem;
+  line-height: 1.875rem;
+  font-weight: 600;
+}
+
+#education .section-title h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 1.875rem;
+  letter-spacing: 0.031rem;
+  line-height: 2.688rem;
+}
+
+#education .education-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+#education .education-block {
+  padding: 1.5rem;
+  border-radius: 0.25rem;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+#education .education-block h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+#education .education-block .education-institution {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #555;
+  font-family: 'Poppins', sans-serif;
+}
+
+#education .education-block .education-duration {
+  font-size: 0.875rem;
+  color: #999;
+  margin-bottom: 0.75rem;
+  display: block;
+  font-family: 'Poppins', sans-serif;
+}
+
+#education .education-block p {
+  font-size: 0.938rem;
+  line-height: 1.625rem;
+  color: #767676;
+  font-family: 'Poppins', sans-serif;
+}
+/* education style end */
+
+
+
+
+
+
+
 /* partner style start */
 #partner {
   margin: 0 2rem;
@@ -271,7 +357,7 @@ body {
 .contact-text h3 {
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
-  font-size: 4.1rem;
+  font-size: 3.7rem;
   color: #fff;
 }
 input[type='text'],
