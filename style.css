@@ -237,7 +237,6 @@ body {
 
 /* end */
 
-
 /* education style start */
 #education {
   margin: 0 5rem;
@@ -248,10 +247,10 @@ body {
 #education .section-title {
   /* text-align: center; */
   margin-bottom: 2rem;
-  margin-left: 2rem;
+  margin-left: 1.6rem;
 }
 
-#education span h2{
+#education span h2 {
   text-align: right;
 }
 
@@ -316,12 +315,6 @@ body {
 }
 /* education style end */
 
-
-
-
-
-
-
 /* partner style start */
 #partner {
   margin: 0 2rem;
@@ -360,6 +353,12 @@ body {
   font-size: 3.7rem;
   color: #fff;
 }
+.contact-text p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #fff;
+}
 input[type='text'],
 [type='email'],
 select,
@@ -374,7 +373,6 @@ textarea {
   resize: vertical;
 }
 
-/* Style the submit button with a specific background color etc */
 input[type='submit'] {
   background-color: #0b0b0b;
   color: white;
@@ -384,18 +382,17 @@ input[type='submit'] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
 input[type='submit']:hover {
   background-color: #914c4c;
   color: #ccc;
 }
 
-/* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 10px;
 }
+
 form label {
   font-family: 'Poppins', sans-serif;
   color: #fff;

@@ -1,23 +1,23 @@
-# Personal Portfolio Site
+# Personal Portfolio Website
 
-## Stack Used For This Project
+## Stack Used For This Project:
 
-1. Html
-2. Css
-3. Javascript
-4. AOS - for animation
+- Html
+- Css
+- Javascript
+- AOS - for animation
+- gsap - for animation
 
-### Responsive For -
+### Responsive For:
 
-1. Mobile
-2. Tablet
-3. Pc
+- Mobile
+- Pc
 
-## How to use this project
+## How to use this project:
 
-` clone or download this project link and use it your personal project `
+` clone or download this project link and use in your personal project. `
 
-> It's and open source project feel free to use any one wihtout any hesitation 
+> It's an open source project feel free to use any one wihtout hesitation. 
 
 
 
