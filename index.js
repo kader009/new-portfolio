@@ -41,3 +41,6 @@ function openImg(imgName) {
 
 // aos initial
 AOS.init();
+
+// dynamic year in footer
+document.getElementById('current-year').textContent = new Date().getFullYear();
